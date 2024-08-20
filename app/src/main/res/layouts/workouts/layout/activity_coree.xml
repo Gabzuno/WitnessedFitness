@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2a2d30"
+    android:orientation="vertical"
+    tools:context=".Workouts.coree">
+    <include layout="@layout/core_workout_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:scrollbars="none"
+            tools:ignore="NestedWeights,UselessParent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                tools:ignore="ExtraText,ScrollViewSize">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp">
+                        <TextView
+                            android:layout_marginTop="14dp"
+                            android:layout_marginLeft="14dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"
+                            android:fontFamily="sans-serif-condensed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_10_workouts"
+                            tools:ignore="RtlHardcoded" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- MOUNTAIN CLIMBER -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/mountainclimber1_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/mountain_climber"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x16_repetition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/mountainclimber"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- LEFT & RIGHT SIDE PLANK WITH LEG LIFT -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/sideplankleftleg2_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/left_right_side_plank_with_leg_lift"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="AllCaps,SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x12_repitition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/sideplankleglift"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- CRUNCHES -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/crunches3_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background"
+                        android:layout_margin="10.0dp"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/crunches"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x12_repitition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/crunch"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- RUSSIAN TWIST -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/russiantwist4_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/russian_twist"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x20_repetition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/russiantwist"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- LEFT & RIGHT SIDE PLANK WITH HIP DIPS -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/sideplankhip5_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/left_right_side_plank_with_hip_dips"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="AllCaps,SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x12_repitition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/sideplankhip"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- REVERSE CRUNCH -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/reversecrunch6_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/reverse_crunch"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x10_repitition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/reversecrunch"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>\
+
+                <!-- BICYCLE CRUNCH -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/bicyclecrunch7_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/background"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment,TooManyViews">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/bicycle_crunch"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/x12_repitition"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/bicyclecrunch"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <!-- PLANK -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150.0dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/plank8_pose"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background"
+                        android:layout_margin="10.0dp"
+                        android:orientation="horizontal"
+                        tools:ignore="DisableBaselineAlignment,TooManyViews">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="@string/plank"
+                                android:textAllCaps="true"
+                                android:textColor="#cea86c"
+                                android:textSize="19.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="SpUsage,TextSizeCheck" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="10dp"
+                                android:text="@string/_1_minute"
+                                android:textColor="#ffffff"
+                                android:textSize="15.0dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,SpUsage,TextSizeCheck" />
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/plank"
+                                tools:ignore="ImageContrastCheck" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        tools:ignore="UselessLeaf">
+
+                    </TableRow>
+
+                </LinearLayout>
+
+
+
+
+
+                <Button
+                    android:id="@+id/startExercise"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/btnbackground"
+                    android:text="@string/start_now"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    tools:ignore="VisualLintButtonSize" />
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

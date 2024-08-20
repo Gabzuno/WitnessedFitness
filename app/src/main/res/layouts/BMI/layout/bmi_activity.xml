@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".BMI.BMI">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0F1010"
+        android:id="@+id/appbarLayout">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/menubar"
+            app:navigationIconTint="@color/white"
+            app:title="BMI Tracker"
+            app:titleTextColor="@color/white">
+
+            <ImageView
+                android:id="@+id/textHistory"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/history"
+                tools:ignore="ContentDescription" />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:id="@+id/framelayout"
+        android:background="#1E1d1d"
+        android:layout_below="@+id/appbarLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- height seekbar  -->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <!-- male button  -->
+
+                <RelativeLayout
+                    android:id="@+id/male"
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/malefemalenotfocus"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toStartOf="@+id/female"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_above="@+id/textmale"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/male"
+                        tools:ignore="ContentDescription">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textmale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/male"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                </RelativeLayout>
+
+                <!-- female button  -->
+
+                <RelativeLayout
+                    android:id="@+id/female"
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/malefemalenotfocus"
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/male"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_above="@+id/textfemale"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="10dp"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/female"
+                        tools:ignore="ContentDescription,HardcodedText">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textfemale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/female"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:id="@+id/heightLayout"
+                android:layout_width="340dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Gender"
+                android:background="@drawable/cardbackground"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/height"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/currentHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="50dp"
+                    android:hint="0"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,DuplicateSpeakableTextCheck,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@id/currentHeight"
+                    android:text="@string/cm"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+                <SeekBar
+                    android:id="@+id/seekbarHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:thumbTint="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:progressTint="#FF4C4C"/>
+
+            </RelativeLayout>
+
+            <!-- weight seekbar -->
+
+            <RelativeLayout
+                android:id="@+id/weightLayout"
+                android:layout_width="340dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/heightLayout"
+                android:background="@drawable/cardbackground"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/weight"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/currentWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="50dp"
+                    android:hint="0"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@id/currentWeight"
+                    android:text="@string/kg"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+                <SeekBar
+                    android:id="@+id/seekbarWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:thumbTint="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:progressTint="#FF4C4C" />
+
+            </RelativeLayout>
+
+            <!-- age -->
+            <RelativeLayout
+                android:id="@+id/age"
+                android:layout_width="340dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cardbackground"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weightLayout"
+                tools:ignore="MissingConstraints">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/age"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:ignore="TextSizeCheck">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/agenum"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="75dp"
+                    android:layout_alignParentEnd="true"
+                    android:hint="0"
+                    android:textColorHint="@color/white"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    tools:ignore="Autofill,HardcodedText,LabelFor,NotSibling,RelativeOverlap,TextSizeCheck,TouchTargetSizeCheck" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginBottom="30dp">
+
+
+                    <ImageView
+                        android:id="@+id/decrementage"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:padding="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/minus"
+                        tools:ignore="ContentDescription">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="280dp"
+                    android:layout_marginBottom="30dp">
+
+
+                    <ImageView
+                        android:id="@+id/incrementage"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/add"
+                        android:layout_marginEnd="20dp"
+                        android:padding="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="true"
+                        tools:ignore="ContentDescription">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <android.widget.Button
+                android:id="@+id/calculateBMI"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbackground"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/age"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="30dp"
+                android:text="@string/calculate_your_bmi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,VisualLintButtonSize"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/NavView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header_menu"
+        app:menu="@menu/main_menu"
+        android:background="#161616"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:subheaderColor="@color/white"
+        android:visibility="visible"
+        android:layout_gravity="start" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

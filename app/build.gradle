@@ -1,0 +1,83 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.first.menu'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.first.menu"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src\\main\\res', 'src\\main\\res\\chest', 'src\\main\\res\\core', 'src\\main\\res\\layouts\\chest', 'src\\main\\res\\layouts\\core', 'src\\main\\res\\layouts\\workouts', 'src\\main\\res\\layouts\\credentials', 'src\\main\\res\\layouts\\menu', 'src\\main\\res\\layouts\\BMI', 'src\\main\\res\\layouts\\leg', 'src\\main\\res\\layouts\\arm', 'src\\main\\res\\layouts\\backandshoulder', 'src\\main\\res\\drawble-night', 'src\\main\\res\\layouts\\chest\\layouts', 'src\\main\\res\\layouts\\workoutdialog', 'src\\main\\res\\layouts\\chestdialog', 'src\\main\\res\\layouts\\core_dialog', 'src\\main\\res\\layouts\\arm_dialog', 'src\\main\\res\\layouts\\back_and_shoulder_dialog', 'src\\main\\res\\layouts\\leg_dialog'
+            }
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //MAPS
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.libraries.places:places:3.1.0'
+    implementation 'com.karumi:dexter:6.2.1'
+
+    //Firebase
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.firebase:firebase-database:20.2.1'
+    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
+
+    //Toast Design
+    implementation 'io.github.muddz:styleabletoast:2.4.0'
+
+
+    //navigation
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+
+    //Circle Indicator
+    implementation 'me.relex:circleindicator:2.1.6'
+
+    //Youtube
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.0.0'
+}

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "495601942205",
+    "firebase_url": "https://auth-88931-default-rtdb.firebaseio.com",
+    "project_id": "auth-88931",
+    "storage_bucket": "auth-88931.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495601942205:android:f78becb5990d85370901d4",
+        "android_client_info": {
+          "package_name": "com.first.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495601942205-116ido5jaennfgtf7pcu6e3sb0gr48fu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.first.login",
+            "certificate_hash": "fd78868e0bef2889f0fde9158c4575f40fbaaaeb"
+          }
+        },
+        {
+          "client_id": "495601942205-qnsev273683mv5plc37eetn4gp5dmr7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkp9suRkMNP5gcRoR9CL9etpKEWoaWpIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495601942205-qnsev273683mv5plc37eetn4gp5dmr7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495601942205:android:e7f9649b4f51b7640901d4",
+        "android_client_info": {
+          "package_name": "com.first.menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495601942205-qnsev273683mv5plc37eetn4gp5dmr7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkp9suRkMNP5gcRoR9CL9etpKEWoaWpIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495601942205-qnsev273683mv5plc37eetn4gp5dmr7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

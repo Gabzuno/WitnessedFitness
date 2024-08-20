@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/core_workout_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="ScrollViewSize">
+
+                <LinearLayout
+                    android:id="@+id/indicator_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="#1E1D1D">
+
+                    <TextView
+                        android:id="@+id/demo_indicator"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Demo"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:layout_margin="10dp"
+                        android:background="@color/crimson2"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/youtube_indicator"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Youtube"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif-black"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:layout_margin="10dp"
+                        android:background="#CC1E1D1D"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="@color/white"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <!--
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/plank_link"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/btn_tutorial_bg"
+                        android:padding="5dp"
+                        android:src="@drawable/btn_tutorial"
+                        tools:ignore="ContentDescription,RtlHardcoded,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/plank" />
+
+                    -->
+
+                <ImageView
+                    android:id="@+id/imgTimer"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/baseline_timer_off"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/timer_plank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="@string/_1_minute"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lastexercise_plank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plank_startbtn"
+                    android:layout_width="145dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="#d5dce6"
+                    android:gravity="center"
+                    android:text="@string/start"
+                    app:cornerRadius="20dp"
+                    app:strokeColor="#7baded"
+                    app:strokeWidth="3dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="50dp">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/how_to_do_a_plank"
+                        android:textColor="#0a0160"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlHardcoded" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/tutorial_background"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/plank_tutorial"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            tools:ignore="VisualLintLongText,TextContrastCheck" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

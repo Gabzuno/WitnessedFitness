@@ -1,0 +1,565 @@
+<resources>
+    <string name="app_name">Witnessed Fitness</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- CORE WORKOUT -->
+    <string name="mountainclimber_tutorial">
+• Get into full plank position with your core engaged. Twist to bring your right knee toward your right elbow. \n\n
+• Return to a full plank before switching legs, bringing your left knee toward your left elbow.  \n\n
+Muscles Targeted: Shoulders, Hamstrings, Triceps, Quads and Core.
+    </string>
+
+    <string name="leftsideplank_tutorial">
+• Lie on your left side with your legs straight, placing your right foot on top of your left. \n\n
+• Prop yourself up with your left forearm so your body forms a diagonal line. Press down into the floor with your bottom foot while lifting your top leg as high as you can go without bending at the waist.  \n\n
+Muscles Targeted: Abs, Glutes, and Hip Flexors.
+    </string>
+
+    <string name="rightsideplank_tutorial">
+• Repeat the step in left side plank, but lie on your right side and lift your left leg. \n\n
+Muscles Targeted: Abs, Glutes, and Hip Flexors.
+    </string>
+
+    <string name="crunches_tutorial">
+• Lie down on the mat, keep your knees bent, your back and feet flat, and your hands supporting your head. \n\n
+• Lift your shoulders, squeeze your abdominal muscles and hold for 1 to 2 seconds.   \n\n
+• Slowly return to the starting position and repeat until set is complete. \n\n
+Muscles Targeted: Abs
+    </string>
+
+    <string name="plank_tutorial">
+• Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor. \n\n
+• Keep your torso straight and rigid and your body in a straight line from your ears to your toes with no sagging or bending. This is the neutral spine position. \n\n
+• Hold this position for 1 minute. \n\n
+Muscles targeted: Shoulders, Core, Glutes, Hamstrings, and Quads.
+    </string>
+
+    <string name="russiantwist_tutorial">
+• Sit with bent knees and your feet pressing firmly into the floor, holding your hands next to your chest. Sit back slightly, keeping your spine straight. \n\n
+• Exhale as you twist to the left, punching your right arm over to the left side. Inhale back to center, and then do the opposite side. \n\n
+Muscles Targeted: Core, Obliques, Rectus, Abdominis, and Traverse Abdominis.
+    </string>
+
+    <string name="leftsidehip_tutorial">
+• Lie on your left side with your legs straight, placing your right foot on top of your left. Prop yourself up with your left forearm so your body forms a diagonal line. \n\n
+• Slowly dip your hip toward the floor. Go down as far as is comfortable without touching the floor. Lift back up to a side plank. \n\n
+Muscles Targeted: Shoulder Muscles, Lat muscles in your upper back, and Glutes.
+    </string>
+
+    <string name="rightsidehip_tutorial">
+• Repeat the steps in left-side plank with hip dips, but lie on your right side. \n\n
+Muscles Targeted: Shoulder Muscles, Lat muscles in your upper back, and Glutes.
+    </string>
+
+    <string name="reversecrunch_tutorial">
+• Lie on your back with your knees together, legs bent to 90 degrees, and feet planted on the floor. Place your palms face down beside you. \n\n
+• Brace your core to lift your hips off the floor, pulling your knees inward to your chest. Pause for a moment, then lower back down while keeping your back pressed against the floor. \n\n
+Muscles Targeted: Rectus Abdominis
+    </string>
+
+    <string name="bicyclecrunch_tutorial">
+• Lie on your back, lift your shoulders off the mat and raise both legs. \n\n
+• Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg. \n\n
+• Return to the starting position and then crunch to the opposite side. \n\n
+Muscles Targeted: Rectus Abdominis and the Oblique Muscles.
+    </string>
+
+    <string name="mountain_climber">MOUNTAIN CLIMBER</string>
+    <string name="left_right_side_plank_with_leg_lift"><![CDATA[LEFT & RIGHT SIDE PLANK WITH LEG LIFT]]></string>
+    <string name="crunches">CRUNCHES</string>
+    <string name="plank">PLANK</string>
+    <string name="russian_twist">RUSSIAN TWIST</string>
+    <string name="left_right_side_plank_with_hip_dips"><![CDATA[LEFT & RIGHT SIDE PLANK WITH HIP DIPS]]></string>
+    <string name="reverse_crunch">REVERSE CRUNCH</string>
+    <string name="bicycle_crunch">BICYCLE CRUNCH</string>
+
+    <string name="how_to_do_left_side_plank_with_leg_lift">How to do left-side plank with leg lift:</string>
+    <string name="how_to_do_right_side_plank_with_leg_lift">How to do right-side plank with leg lift:</string>
+    <string name="how_to_do_a_crunches">How to do abs crunches:</string>
+    <string name="how_to_do_a_plank">How to do a plank:</string>
+    <string name="how_to_do_a_russian_twist">How to do a russian twist:</string>
+    <string name="how_to_do_a_left_side_plank_with_hip_dips">How to do a left-side plank with hip dips:</string>
+    <string name="how_to_do_a_right_side_plank_with_hip_dips">How to do a right-side plank with hip dips:</string>
+    <string name="how_to_do_a_reverse_crunch">How to do a reverse crunches:</string>
+    <string name="how_to_do_a_bicycle_crunch">How to do a bicycle crunches:</string>
+
+    <!-- BACK AND SHOULDER WORKOUT -->
+    <string name="pikepushups_tutorial">
+• Start in Downward Dog, then walk feet toward hands so shoulders are above hands.  \n\n
+• Keep elbows close to your sides as you lower your forehead toward the floor. \n\n
+• Aim to lightly touch the floor with your forehead before pushing back up. \n\n
+Muscles Targeted: Chest, Shoulders, and Core.
+    </string>
+
+
+    <string name="pushbackpushup_tutorial">
+• Start in a push-up position but with feet a bit wider than shoulder width.Brace core and lower your body toward the floor, leading with your chest.  \n\n
+• As upper body goes back, bend legs and let hips rise as upper body comes back to meet them. Keep your spine long. \n\n
+• Drive through your legs to return to the starting position. \n\n
+Muscles targeted: Abdominals, Pectorals, Triceps, and Deltoids.
+    </string>
+
+    <string name="plankdowntodog_tutorial">
+• Start in a plank position with arms straight, core braced, and neck, shoulders, hips, and ankles in line.   \n\n
+• Exhale and you lift hips, transferring your weight back and aiming to create a straight line from wrists to hips, before lowering back into the starting position. \n\n
+Muscles targeted: Shoulders, Hamstrings, Biceps, and Triceps.
+    </string>
+
+    <string name="plankup_tutorial">
+• Start in a plank position on your elbows. Keeping core tight, place the palm of one hand on the floor and push up, following with the other arm until you’re in a push-up position.    \n\n
+• Lower yourself back to the elbow plank position, one arm at a time. \n\n
+Muscles targeted: Shoulders, Hamstrings, Biceps, and Triceps.
+    </string>
+
+    <string name="elevatedpikepushup_tutorial">
+• Elevate your feet on a chair, bench, table, or box and start in Downward Dog, with hands wider than shoulder width and fingers facing forward.  \n\n
+• Bend elbows and inhale as you slowly lower your head until it nearly touches the floor.  \n\n
+• Arms should make the shape of a goal post, and elbows shouldn’t track out past wrists. Exhale as you push back up, straightening arms but not locking elbows. \n\n
+Muscles Targeted: Shoulders and Triceps.
+    </string>
+
+    <string name="flooryraises_tutorial">
+• Lie facedown on the floor with your face and neck comfortable and supported.  \n\n
+• Extend arms out to the sides in a Y shape, then raise arms and chest and hold for a couple of seconds before lowering. Alternatively, extend arms to a Y shape for additional benefits. \n\n
+Muscles Targeted: Shoulders and Back Extensors.
+    </string>
+
+    <string name="pike_push_up">Pike Push-up</string>
+    <string name="tricep_dip">Tricep Dip</string>
+    <string name="push_up_back_shoulder">Push-ups</string>
+    <string name="inclined_push_up">Inclined Push-up</string>
+    <string name="mountain_climbers">Mountain Climbers</string>
+    <string name="push_back_push_up">Push Back Push-up</string>
+    <string name="plank_to_down_dog">Plank To Down Dog</string>
+    <string name="plank_up">Plank up</string>
+    <string name="elevated_pike_push_u">Elevated Pike Push-up</string>
+    <string name="floor_y_raises">Floor Y Raises</string>
+
+    <string name="how_to_do_a_pike_push_ups">How to do a pike push-ups:</string>
+    <string name="how_to_do_a_push_back_pushups">How to do a push-back pushups:</string>
+    <string name="how_to_do_a_plank_down_to_dog">How to do a plank down to dog:</string>
+    <string name="how_to_do_a_plank_up">How to do a plank up:</string>
+    <string name="how_to_do_elevated_pike_pushup">How to do elevated pike pushup:</string>
+    <string name="how_to_do_a_floor_y_raises">How to do a floor y raises:</string>
+
+    <!-- ARM WORKOUT -->
+    <string name="sidearmraise_tutorial">
+• Stand up straight, your arms resting at your sides. \n\n
+• Keep your feet shoulder width apart, and do not forget to maintain good posture. \n\n
+• Keeping your arms straight, lift your arms out to the side, stopping once your arms are perpendicular to the rest of your body. \n\n
+Muscles targeted: Deltoid Muscles
+    </string>
+
+    <string name="armcircle_tutorial">
+• Stand tall with your arms straight out to your sides and your muscles contracted down the length of your arm. \n\n
+• Slowly make circles with your arms by rotating them around your shoulders while keeping them straight and your elbows locked with tension.  \n\n
+• You can perform sets of large or small diameter circles to slightly change the effort required. \n\n
+Muscles targeted: Anterior Deltoid, Posterior Deltoid, Lateral Deltoid, Trapezius, Bicep Brachii, Tricep Brachii.
+    </string>
+
+    <string name="tricepdips_tutorial">
+• Triceps dips can be done with a couch, chair, or bench \n\n
+• Place your hands shoulder-width apart on the chair and move your pelvis and booty forward, giving yourself enough space to dip down.  \n\n
+• Step your feet forward slightly so your legs are almost straight. \n\n
+• Slowly lower your body down and then press back up, concentrating on engaging your triceps to lower and lift. \n\n
+Muscles targeted: Triceps
+    </string>
+
+    <string name="sideplankrotation_tutorial">
+• Straight body from head to toes. Tighten abs and glutes to hold up your body. \n\n
+• Reach elbow up toward the sky and slowly twist upper body back, look the same direction. \n\n
+• Hold 1-3 seconds, return slowly and repeat other side to count one repetition. \n\n
+Muscles targeted: Core, Shoulder Strength, and Stability.
+    </string>
+
+    <string name="superman_tutorial">
+• Lie facedown with legs extended and arms bent so elbows are by your sides. \n\n
+• Engage shoulders and glutes while lifting arms, chest, and legs off the floor (this is the Superman part). \n\n
+• Straighten arms in front of you, then bring them back into the bent position. Lower back down to the starting position. \n\n
+Muscles targeted: Shoulders, Lower Back, and Glutes.
+    </string>
+
+    <string name="inchworm_tutorial">
+• Start in a high plank position with wrists under shoulders and legs extended behind you. \n\n
+• Lift hips toward the ceiling as you slowly walk hands back toward feet until you’re in a forward fold. \n\n
+• Slowly walk hands forward, returning to high plank position. \n\n
+Muscles Targeted: Chest and Shoulders.
+    </string>
+
+    <string name="planktap_tutorial">
+• Start in a high plank with hands shoulder-width apart, shoulders stacked over wrists, and legs extended behind you with feet at least shoulder-width apart. \n\n
+• Keeping core and glutes engaged and hips as still as possible, tap right hand to left shoulder, then left hand to right shoulder. \n\n
+Muscles Targeted: Triceps, Deltoids, Lats, Glutes, and Core.
+    </string>
+
+    <string name="floortricepdips_tutorial">
+•  Sit on the floor with your knees bent and feet in front of you, resting on your heels.    \n\n
+• Place your palms on the floor behind you underneath your shoulders, fingers facing toward your body.  \n\n
+• Straighten your arms to lift your butt, then bend your elbows to lower yourself without sitting down completely. \n\n
+• Keep your heels on the floor and your elbows pointing directly behind your body (not flared out to the side). \n\n
+Muscles Targeted: Tricep Muscles
+    </string>
+
+
+    <!-- CHEST WORKOUT -->
+    <string name="kneepushup_tutorial">
+• Start in the push-up position but with your knees on the floor and your feet crossed in the air. \n\n
+• Lower down until your upper arms are parallel to the ground. \n\n
+• Push back up again. \n\n
+• Put your wrist directly under your shoulders. \n\n
+• Keep your body straight. \n\n
+• Inhale when you go down, and exhale when you go up. \n\n
+Muscles Targeted: Chest, Shoulders, Traps, Triceps, Biceps, Forearms, and Upper Back.
+    </string>
+
+    <string name="diamondpushup_tutorial">
+• Up put your hands in a diamond position. \n\n
+• Keep your core nice and tight and straight like a plank elbows in and come down breathe in as you come down. \n\n
+• And then breathe out as you push. \n\n
+Muscles Targeted: Triceps
+    </string>
+
+    <string name="pushup_tutorial">
+• We need your body to be straight like plank. \n\n
+• Bring your chest down to the floor. \n\n
+• Slow and controlled, and up. \n\n
+Muscles Targeted: Triceps, Pectoral Muscles, and Shoulders.
+    </string>
+
+    <string name="widearmpushup_tutorial">
+• Start with a push-up position , but with your hands wider than your shoulders. \n\n
+• Lower down until your upper arms are parallel to the floor. \n\n
+• Push back up again. \n\n
+• Inhale when you go down, and exhale when you go up. \n\n
+• Keep your body in a straight line. \n\n
+• Tighten your abs, your chest should be engaged. \n\n
+Muscles Targeted: Chest, Shoulders, Upper Arms (Triceps).
+    </string>
+
+    <string name="clappushup_tutorial">
+• Start in a standard push up position. \n\n
+• Lower yourself until your chest is just above the floor. \n\n
+• Push! \n\n
+• Let your hands leave the floor. \n\n
+• Quickly clap and reposition your hands. \n\n
+Muscles Targeted: Chest, Shoulders, and Triceps.
+    </string>
+
+    <string name="inclinepushup_tutorial">
+• Stand facing the bench, table, or the edge of a bed. \n\n
+• Place your hands on the edge of the bench just slightly wider than shoulder width. Your arms are straight but elbows are not locked. Align your feet so that your arms and body are completely straight. \n\n
+• Bend your elbows to slowly lower your chest to the edge of the bench while inhaling. Keep your body straight and rigid throughout the movement. \n\n
+• Push your body away from the bench until your elbows are extended, but not locked. Exhale as you push up. \n\n
+• Keep going with slow, steady repetitions. \n\n
+Muscles Targeted: Lower Chest and Back Muscles.
+    </string>
+
+    <string name="declinepushup_tutorial">
+• Kneel down with your back to the bench. Put your hands on the floor, shoulders over your wrists and elbows at 45 degrees. Place your feet on top of the bench. \n\n
+• Brace your core, glutes, and quads. Bend your elbows and lower your chest to the floor, keeping your back and neck straight. \n\n
+• Push into the floor to return to starting position, extending your elbows. \n\n
+Muscles Targeted: Upper Chest and Front Shoulders.
+    </string>
+
+    <string name="hindupushup_tutorial">
+• Place your hands and feet on the floor and bend your body in an upside down V shape. \n\n
+• Bend your elbows and bring your body towards the floor. \n\n
+• When your body is close to the floor, raise your upper body up as far as possible. \n\n
+• Push back to the starting position and repeat. \n\n
+• Squeeze your triceps and shoulder blades when raising your upper body. \n\n
+• Keep your core tight \n\n
+• Exhale when raising your upper body, and inhale when pushing back. \n\n
+Muscles Targeted: Chest, Triceps, Biceps, Shoulders, and Core.
+    </string>
+
+    <string name="medicineballpushup_tutorial">
+• Place your hands on a medicine ball on the floor with your legs straight and hip-width apart. \n\n
+• Grip the medicine ball with your hands and rotate your shoulders outward to engage your lats. \n\n
+• Pre-tension your shoulders and hips while engaging your core. Squeeze your quads and glutes. \n\n
+• Lower your chest toward your hands by bending your elbows. Your shoulder blades should retract as you lower toward the medicine ball. \n\n
+• Lower your body until your upper arms are even with your back. Your elbows should be close to your ribcage. \n\n
+• While maintaining your alignment, initiate the upward movement by squeezing your chest and straightening your elbows.  \n\n
+• Finish the movement by squeezing your chest and triceps. \n\n
+Muscles Targeted: (Upper Body) pecs and delts, (Lower Body) glutes and hamstrings.
+    </string>
+
+    <string name="burpees_tutorial">
+• Position your feet shoulder-width apart. \n\n
+• Bend your knees, driving them out slightly past your toes, while bringing your butt down. \n\n
+• Kick your legs back into a high plank position. \n\n
+• Bend your elbows and bring your body toward the floor. \n\n
+• Focus on keeping your body straight. \n\n
+• Jump your legs forward. When you land, make sure your feet are flat on the floor. \n\n
+• Reach your arms up as you launch toward the ceiling. \n\n
+Muscles Targeted: Glutes, Quads, Core, Calves, Shoulders, Chest, Triceps.
+    </string>
+
+    <string name="side_arm_raise">SIDE ARM RAISE</string>
+    <string name="arm_circle">ARM CIRCLE</string>
+    <string name="tricep_dips">TRICEP DIPS</string>
+    <string name="side_plank_rotation">SIDE PLANK ROTATION</string>
+    <string name="superman_with_arm_extension">SUPERMAN WITH ARM EXTENSION</string>
+    <string name="inchworm">INCHWORM</string>
+    <string name="plank_tap">PLANK TAP</string>
+    <string name="floor_tricep_dips">FLOOR TRICEP DIPS</string>
+
+    <string name="how_to_do_side_arm_raise">How to do side arm raise:</string>
+    <string name="how_to_do_arm_circle">How to do arm circle:</string>
+    <string name="how_to_do_a_push_up_arm">How to do a push-up:</string>
+    <string name="how_to_do_a_tricep_dips">How to do a tricep dips:</string>
+    <string name="how_to_do_side_plank_rotation">How to do side plank rotation:</string>
+    <string name="how_to_do_superman_with_arm_extension">How to do superman with arm extension:</string>
+    <string name="how_to_do_inchworm">How to do inchworm:</string>
+    <string name="how_to_do_plank_tap">How to do plank tap:</string>
+    <string name="how_to_do_floor_tricep_dips">How to do floor tricep dips:</string>
+
+
+    <string name="chest_workout">CHEST WORKOUT</string>
+
+    <string name="_10_workouts">• 10 workouts - 10 minutes </string>
+
+    <string name="knee_push_up">KNEE PUSH-UP</string>
+    <string name="diamond_push_up">DIAMOND PUSH-UP</string>
+    <string name="push_up">PUSH-UP</string>
+    <string name="wide_arm_push_up">WIDE ARM PUSH-UP</string>
+    <string name="clap_push_up">CLAP PUSH-UP</string>
+    <string name="incline_push_up">INCLINE PUSH-UP</string>
+    <string name="decline_push_up">DECLINE PUSH-UP</string>
+    <string name="hindu_push_up">HINDU PUSH-UP</string>
+    <string name="medicine_ball_push_up">MEDICINE BALL PUSH-UP</string>
+    <string name="burpees">BURPEES</string>
+
+    <string name="x12_repitition">x12 Repitition</string>
+    <string name="x10_repitition">x10 Repitition</string>
+    <string name="x15_repetition">x15 Repetition</string>
+    <string name="x16_repetition">x16 Repetition</string>
+    <string name="x20_repetition">x20 Repetition</string>
+
+    <string name="x10_reps">x10 reps</string>
+    <string name="x12_reps">x12 reps</string>
+    <string name="x15_reps">x15 reps</string>
+    <string name="x16_reps">x16 reps</string>
+    <string name="x20_reps">x20 reps</string>
+
+    <string name="how_to_do_a_knee_push_up">How to do a knee push-up:</string>
+    <string name="how_to_do_diamond_push_up">How to do diamond push-up:</string>
+    <string name="how_to_do_a_push_up">How to do a push-up:</string>
+    <string name="how_to_do_widearm_push_up">How to do widearm push-up:</string>
+    <string name="how_to_do_clap_push_up">How to do clap push-up:</string>
+    <string name="how_to_do_incline_push_up">How to do incline push-up:</string>
+    <string name="how_to_do_decline_push_up">How to do decline push-up:</string>
+    <string name="how_to_do_hindu_push_up">How to do hindu push-up:</string>
+    <string name="how_to_do_medicine_ball_push_up">How to do medicine ball push-up:</string>
+    <string name="how_to_do_burpees">How to do burpees:</string>
+
+    <string name="done">DONE</string>
+    <string name="start_now">START NOW</string>
+
+    <!-- Leg Workout -->
+    <string name="gobletsquat_tutorial">
+• Holding the weight or object in front of your chest, stand with feet just outside hip width. \n\n
+• Drive hips back and then down, as if sitting in a chair. Keep chest up and focus on your hips breaking below your knee crease.  \n\n
+• Push into heels, squeeze glutes, and stand back up. \n\n
+Muscles targeted: Quads and Glutes.
+    </string>
+
+    <string name="pendulumlunge_tutorial">
+• Hold the weight or object in front of your chest. Lunge forward with right leg, keeping left leg stationary until the reps are done. \n\n
+• Keeping your weight in your right heel, push out of heel to stand up and immediately step into a reverse lunge with right leg in the back.  \n\n
+• Complete all reps on one side before switching legs.\n\n
+Muscles targeted: Glutes, Hamstrings, and Calves (plus the challenge of balance and core stabilization).
+    </string>
+
+    <string name="jumpsquat_tutorial">
+• Stand with feet just outside hip width. Drive hips back and then down. \n\n
+• Keep chest up and focus on your hips breaking below your knee crease.  \n\n
+• Push into heels to stand (or jump back up — jumping increases the intensity and the calorie burn). \n\n
+Muscles targeted: Quads, Hamstrings, Lower Back, and Core.
+    </string>
+
+    <string name="hipbridge_tutorial">
+• Start standing. Step your left foot back into a lunge, keeping right foot flat, right shin vertical, and chest up. Step left foot forward and repeat on the right. \n\n
+• You should be able to touch your heels with your fingertips.  \n\n
+• Brace core, squeeze glutes, push into heels, and lift your hips until shoulders, hips, and knees are in a line. Slowly lower your hips back to the floor. \n\n
+Muscles targeted: Glutes, Hamstrings, Hip Adductors, Core, and Obliques
+    </string>
+
+    <string name="jumpinglunge_tutorial">
+• Lie on your back with knees bent and feet flat on the floor. \n\n
+• For a jumping lunge, explode up quickly from the bottom of the lunge, switching your feet in the air and controlling your landing.   \n\n
+• This more advanced jumping version adds a cardiovascular and stability challenge. \n\n
+Muscles targeted: Quads, Glutes, Hamstrings, Calves, Core, and Hip Stabilizing Muscles.
+    </string>
+
+    <string name="singlelegdeadlift_tutorial">
+• Start with left foot planted on the floor. Hinging at your hips, with a slight bend in left knee, reach arms forward and push right foot back. \n\n
+• Focus on keeping hips and shoulders in one line. Flex your back ankle and press your heel toward the wall behind you.    \n\n
+• Squeeze glutes and drive right leg forward to return to the starting position. \n\n
+Muscles targeted: Hamstrings, Glutes, Ankles, and Core
+    </string>
+
+    <string name="pistolsquat_tutorial">
+• If your balance is great, start by kicking your leg out to a 90-degree angle. \n\n
+• Squeeze your leg as tight as possible, and sit down as low as you can. From there, drive upward using only your leg that is on the ground. \n\n
+• Then repeat. Complete one side before moving onto the other leg. If your balance is not great, you can go down to a surface and drive up from there. \n\n
+Equipment needed: Chair, bench, or elevated surface \n\n
+Muscles Targeted: Glutes, Hamstrings, Calves, and Quads.
+    </string>
+
+    <string name="curtsylunge_tutorial">
+• Tuck your one leg behind the other, and with legs crossed, sink down.  \n\n
+• You will feel a deep and tight activation of your glute and outer thigh.  \n\n
+• Come back to an upright position. To increase difficulty, you can add weight or do all repetitions on one side and then shift to the other leg. \n\n
+Muscles Targeted: Quads and Glutes.
+    </string>
+
+    <string name="laterallunge_tutorial">
+• Reach your leg laterally from the midline of your body while keeping the opposite leg straight.  \n\n
+• Sink your weight down into the leg you reached out.  \n\n
+The lateral lunge is a simple yet effective leg exercise that will have you fully loading your weight on each leg and it will force maximum activation in the quads and glutes. \n\n
+Muscles Targeted: Quadriceps, Abductors, Glutes, Adductors, and Hamstrings.
+    </string>
+
+    <string name="pausesquat_tutorial">
+•  With your feet in a standard squat position, push your knees apart.   \n\n
+• Squat as low as you are comfortable without causing pain or injury.  \n\n
+• Hold for a count of 5-10, the longer the harder the exercise. Then drive upward. \n\n
+Muscles Targeted: \n\n
+Primary Muscles: Quadriceps, Glutes, Hip Flexors. \n\n
+Secondary Muscles: Upper Back, Latissimus Dorsi, Erectors, Abdominals, Hamstrings, Adductor Magnus, Calves.
+    </string>
+
+    <string name="leg_workout">LEG WORKOUT</string>
+
+    <string name="goblet_squat">Goblet Squat</string>
+    <string name="pendulum_lunge">Pendulum Lunge</string>
+    <string name="jump_squat">Jump Squat</string>
+    <string name="hip_bridge">Hip Bridge</string>
+    <string name="jumping_lunge">Jumping Lunge</string>
+    <string name="single_leg_deadlift">Single-Leg Deadlift</string>
+    <string name="pistol_squat">Pistol Squat</string>
+    <string name="curtsy_lunge">Curtsy Lunge</string>
+    <string name="lateral_lunge">Lateral Lunge</string>
+    <string name="pause_squat">Pause Squat</string>
+
+    <string name="how_to_do_goblet_squat">How to do goblet squat:</string>
+    <string name="how_to_do_pendulum_lunge">How to do pendulum lunge:</string>
+    <string name="how_to_do_hip_bridge">How to do hip bridge:</string>
+    <string name="how_to_do_jump_squat">How to do jump squat:</string>
+    <string name="how_to_do_jumping_lunge">How to do jumping lunge:</string>
+    <string name="how_to_do_single_leg_deadlift">How to do single-leg deadlift:</string>
+    <string name="how_to_do_pistol_squat">How to do pistol squat:</string>
+    <string name="how_to_do_curtsy_lunge">How to do curtsy lunge:</string>
+    <string name="how_to_do_lateral_lunge">How to do lateral lunge:</string>
+    <string name="how_to_do_pause_squat">How to do pause squat:</string>
+
+
+    <string name="title_activity_drawer2">Drawer2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="weight">Weight</string>
+    <string name="kg">kg</string>
+    <string name="calculate_your_bmi">Calculate your bmi</string>
+    <string name="age">Age</string>
+    <string name="bmi_records">BMI Records</string>
+    <string name="have_you_already_registered_n_click_here_to_log_in">Have you already registered?\n Click here to log in.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="witnessed_fitness">Witnessed Fitness</string>
+    <string name="login">LogIn</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="register">Create new account</string>
+    <string name="welcome_user_come_get_fit_with_us">Welcome, Come Get Fit with Us!</string>
+    <string name="body_mass_index">BODY MASS INDEX</string>
+    <string name="category">CATEGORY</string>
+    <string name="below_16_5">Below 16.5</string>
+    <string name="severely_underweight">Severely Underweight</string>
+    <string name="_16_5_to_18_4">16.5 to 18.4</string>
+    <string name="underweight">Underweight</string>
+    <string name="_18_5_to_24_9">18.5 to 24.9</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="_25_0_to_29_9">25.0 to 29.9</string>
+    <string name="_30_0_to_39_9">30.0 to 39.9</string>
+    <string name="obese">Obese</string>
+    <string name="above_40_0">Above 40.0</string>
+    <string name="obese_class_1">Obese Class 1</string>
+    <string name="track_your_body_mass_index">Track Your Body Mass Index</string>
+    <string name="motion_based">Exercise-based</string>
+    <string name="calorie_burn_measurement">Calorie Burn Measurement</string>
+    <string name="kcal">Kcal</string>
+    <string name="slide_secondString">You can track the total calories burned during your exercises by completing exercises within specific workout categories.</string>
+    <string name="slide_thirdTitle">Easy home workout guide for beginners</string>
+    <string name="slide_thirdString">Simple home workouts are provided through GIF and videos to properly execute a specific exercise.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="arrow_down">⇓⇓</string>
+    <string name="exit_the_app">EXIT THE APP?</string>
+    <string name="notice">NOTICE</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="arm_workout">ARM WORKOUT</string>
+    <string name="back_and_shoulder_workout">BACK AND SHOULDER WORKOUT</string>
+    <string name="how_to_do_mountain_climbers">How to do mountain climbers:</string>
+    <string name="core_workout">CORE WORKOUT</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="start">START</string>
+
+    <!-- ARM WORKOUT DIALOG -->
+    <string name="sidearmdialog">
+The side arm raise is an exercise commonly used to target the shoulders, specifically the medial deltoid muscle.  \n\n
+MET Value: 2.3
+    </string>
+
+    <string name="armCircleDialog">
+This exercise is typically used as a warm-up activity before engaging in more intense physical activity, such as weightlifting or cardio.  \n\n
+MET Value: 2.3
+    </string>
+
+    <string name="tricepdipsdialog">
+This exercise involves lowering and raising your body using the strength of your triceps and core muscles.  \n\n
+MET Value: 3.5
+    </string>
+
+    <string name="sideplankrotationsdialog">
+The side plank rotation is a variation of the traditional side plank exercise that targets the oblique muscles, which are the muscles that run along the sides of your abdomen.  \n\n
+MET Value: 4
+    </string>
+
+    <string name="supermandialog">
+The Superman with arm extension is an exercise that targets the muscles in your back, particularly the muscles of the lower back, as well as your glutes and shoulders. \n\n
+MET Value: 4
+    </string>
+
+    <string name="inchwormdialog">
+This exercise is a series of movements that require you to move your body forward and backward in a controlled manner, while engaging your muscles to maintain stability and control. \n\n
+MET Value: 2.5
+    </string>
+
+    <string name="planktapdialog">
+This exercise is a variation of the traditional plank exercise that involves tapping your hand or foot to the ground while maintaining a stable plank position. \n\n
+MET Value: 4
+    </string>
+
+    <string name="floortricepdipsdialog">
+It is a body weight exercise that can be done anywhere without any equipment, making it a convenient option for those who want to tone and strengthen their arms. \n\n
+MET Value: 3.5
+    </string>
+    <string name="user_profile">User Profile</string>
+</resources>
